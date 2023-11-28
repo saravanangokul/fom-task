@@ -1,0 +1,69 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+table {
+    width: 80%;
+    position: relative;
+    top: 58em;
+    left: .5em;
+    box-shadow:  5px 5px 15px;
+
+}
+form{
+    position: absolute;
+    left: .5em;
+    width: 80%;
+    margin-top: 4em;
+}
+
+label {
+    display: block;
+    margin-top: 1em;
+    margin-bottom: 2px;
+    font-weight: bold;
+}
+
+input, select, textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    border-radius:1em;
+    border: none;
+    box-shadow:  3px 3px 10px;
+}
+h1{
+    text-align: center;
+    font-weight: bold;
+}
+p{
+    text-align: center;
+    
+}
+#button , #button1{
+    color:black;
+    font-weight: bold;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 1em;
+    cursor: pointer;
+    position: relative;
+    top: 3em;
+    margin-left: 3em;
+    box-shadow:  3px 3px 10px;
+
+}
+#button1{
+    margin-top: 1.5em;
+}
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color:blue;
+    color: black;
+}
